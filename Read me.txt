@@ -1,0 +1,37 @@
+1.  **Clone the Repository**
+    ```bash
+    git clone [https://github.com/yourusername/financepro.git](https://github.com/yourusername/financepro.git)
+    cd financepro
+    ```
+
+2.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Environment Setup**
+    Create a `.env` file in the root directory and add the following:
+    ```env
+    MONGO_URI=your_mongodb_connection_string
+    SESSION_SECRET=your_secret_key
+    PORT=3000
+    ```
+
+4.  **Start the Application**
+    ```bash
+    node app.js
+    ```
+
+5.  **Access the App**
+    Open your browser and navigate to: `http://localhost:3000`
+
+## 📂 Project Structure
+
+```text
+finance-manager/
+├── models/         # Database Schemas (User, Transaction, Bill, Budget, Goal)
+├── public/         # Static assets (CSS, Uploads)
+├── routes/         # Controllers & Route Logic
+├── views/          # Frontend Templates (EJS)
+├── app.js          # Main Server Entry Point
+└── package.json    # Dependencies
