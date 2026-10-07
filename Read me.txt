@@ -28,7 +28,7 @@
 ## 📂 Project Structure
 
 ```text
-finance-manager/
+finance-manager/ 
 ├── models/         # Database Schemas (User, Transaction, Bill, Budget, Goal)
 ├── public/         # Static assets (CSS, Uploads)
 ├── routes/         # Controllers & Route Logic
