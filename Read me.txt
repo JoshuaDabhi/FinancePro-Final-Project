@@ -4,7 +4,7 @@
     cd financepro
     ```
 
-2.  **Install Dependencies**
+2.  **Install Dependencies** 
     ```bash
     npm install 
     ```
